@@ -1,0 +1,13 @@
+kind: LimitRanges
+apiVersion: apps/v1
+metadata:
+    name: limits
+spec:
+    limits:
+    - type: pod
+      min:
+        cpu: 5m
+        memory: 50Mi
+      max:
+        cpu: 500m
+        memory: 500Mi

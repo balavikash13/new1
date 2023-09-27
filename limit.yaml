@@ -11,3 +11,7 @@ spec:
       max:
         cpu: 500m
         memory: 500Mi
+      default:
+         cpu: 40m
+         memory: 400Mi
+         
